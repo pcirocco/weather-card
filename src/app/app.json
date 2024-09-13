@@ -1,0 +1,16 @@
+{
+  "name": "Weather App",
+  "description": "This is an example private app that shows a custom card on the Contact record tab built with React-based frontend. This card demonstrates a simple handshake with HubSpot's serverless backend.",
+  "uid": "weather_app",
+  "scopes": ["crm.objects.contacts.read", "crm.objects.contacts.write", "crm.objects.companies.write", "crm.objects.companies.read"],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/weather-card.json"
+        }
+      ]
+    }
+  }
+}

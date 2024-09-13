@@ -1,0 +1,8 @@
+{
+  "appFunctions": {
+    "myFunc": {
+      "file": "getWeather.js",
+      "secrets": ["APPID"]
+    }
+  }
+}
